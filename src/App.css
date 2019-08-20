@@ -1,0 +1,87 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+}
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  padding-bottom: 40px;
+}
+/* The header */
+.header {
+  font-size: 32px;
+  font-weight: bold;
+  font-style: Arial Bold;
+  color: #f1f1f1;
+  background: rgba(0, 101, 50, 0.5);
+  padding: 40px;
+}
+
+.notes {
+  border-radius: 25px;
+  color: #036e31;
+  padding: 40px;
+  margin: 10px;
+  background: #fff;
+  border: solid 3px #e9e9e9;
+  cursor: pointer;
+  box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.1);
+  transition: transform .2s ease;
+}
+.note:hover {
+  transform: scale(1.02);
+}
+
+.btn {
+  position: fixed;
+  z-index: 1;
+  right: 45px;
+  bottom: 45px;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 80px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #f1f1f1;
+  background: #005107;
+  cursor: pointer;
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.8);
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.8);
+  -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.8);
+  transition: transform .3s ease;
+}
+.btn:hover {
+  transform: scale(1.2);
+  background-color: #007507;
+}
+
+.textInput {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  line-height: 80px;
+  padding: 0 20px;
+  border: none;
+  outline: none;
+  background: rgba(0, 101, 50, 0.5);
+  font-size: 16px;
+  color: #f1f1f1;
+}
+
+p{
+ color: darkolivegreen;
+  padding: 0 35px;
+
+}
